@@ -142,8 +142,8 @@ Man könnte meinen, dass ein Feature wie Autoloading zwangsläufig mehr Performa
 
 Ergebnis
 --------
-	Zeit expliziter include(): 0.00022697
-	Zeit mit __autoload(): 0.00021410
+
+siehe [data.md](data.md)
 
 Der Test kann leider nicht in einer Schleife ausgeführt werden, da es sonst zu Fehlern wie "Klasse bereits deklariert" kommt. Daher wurde der Test mehrere Male manuell hintereinander ausgeführt. Immer war __autoload() schneller. Der hier im Ergebnis notierte Wert ist der schnelleste für den expliziten include().
 
